@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "*",allowedHeaders = "*")
+@CrossOrigin(origins = "https://foodshalaa.herokuapp.com",allowedHeaders = "*")
 public class UsersController {
 
     @Autowired

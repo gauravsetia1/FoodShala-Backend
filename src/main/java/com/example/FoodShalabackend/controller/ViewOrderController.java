@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/order")
-@CrossOrigin(origins = "*",allowedHeaders = "*")
+@CrossOrigin(origins = "https://foodshalaa.herokuapp.com",allowedHeaders = "*")
 public class ViewOrderController {
 
     @Autowired
