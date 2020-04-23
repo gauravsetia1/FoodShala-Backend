@@ -15,11 +15,3 @@ public class FoodShalaBackendApplication {
 	}
 
 }
-
-@RestController
-class test {
-	@GetMapping("/")
-	String hello() {
-		return "hello world";
-	}
-}
