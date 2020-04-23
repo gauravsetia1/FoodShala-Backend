@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:4200",allowedHeaders = "*")
+@CrossOrigin(origins = "*",allowedHeaders = "*")
 public class UsersController {
 
     @Autowired
