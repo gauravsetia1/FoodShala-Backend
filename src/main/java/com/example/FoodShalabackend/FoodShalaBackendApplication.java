@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FoodShalaBackendApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Starting Application");
+		System.out.println("Starting Food Application");
 		SpringApplication.run(FoodShalaBackendApplication.class, args);
 	}
 
